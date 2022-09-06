@@ -1,0 +1,47 @@
+{
+	"products" : [
+		{
+			"name" : "Camiseta Seu Madruga",
+			"price" : "13.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Preto" }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/f/fa/CamisaSeuMadruga.jpg",
+			"description" : "Camisa Seu Madruga, Unidades: 1. mais fotos em: https://www.instagram.com/p/CiDjds1p2_u/"
+		},
+		{
+			"name" : "Camisa Social Branca",
+			"price" : "12.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Branco" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/7/70/Camisa_Social_Branca.jpg",
+			"description" : "Camisa Social, Unidades: 1. Mais fotos em: https://www.instagram.com/p/CiDi6_jpptE/"
+		},
+		{
+			"name" : "Calça Jogger Camuflada",
+			"price" : "15.99",
+			"options" : [
+				{ "Tamanho" : "M" },
+				{ "Cor" : "Camuflada Verde e preta" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cal%C3%A7a_camuflada_verde_e_preta.jpg",
+			"description" : "Calça Jogger Verde e preta Camuflada, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDfULsp28q/"
+		},
+		{
+			"name" : "Camisa Social Quadriculada",
+			"price" : "14.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Preta. Listras vermelhas" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/b/b6/Camisa_Social_vermelha_e_preta.jpg",
+			"description" : "Camisa Social Vermelha e preta quadriculada, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDObVju741/"
+		}
+	]
+}

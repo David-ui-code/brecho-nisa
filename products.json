@@ -1,0 +1,102 @@
+{
+	"products" : [
+		{
+			"name" : "Camiseta Seu Madruga",
+			"price" : "13.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Preto" }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/f/fa/CamisaSeuMadruga.jpg",
+			"description" : "Camisa Seu Madruga, Unidades: 1. mais fotos em: https://www.instagram.com/p/CiDjds1p2_u/"
+		},
+		{
+			"name" : "Camisa Social Branca",
+			"price" : "12.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Branco" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/7/70/Camisa_Social_Branca.jpg",
+			"description" : "Camisa Social, Unidades: 1. Mais fotos em: https://www.instagram.com/p/CiDi6_jpptE/"
+		},
+		{
+			"name" : "Camisa Quadriculada",
+			"price" : "10.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Azul. Com listras vermelhas" },
+				{ "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/6/68/Camisa_Social_azul_e_vermelha.jpg",
+			"description" : "Camisa Social quadriculada, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDicTGpEgm/"
+		},
+		{
+			"name" : "Calça Leg preta",
+			"price" : "20,99",
+			"options" : [
+				{ "Tamanho" : "M" },
+				{ "Cor" : "Blue,Red" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/9/9f/Calca_Leg_preta.jpg",
+			"description" : "Calça Leg Preta listrada, Unidades: 1. Mais fotos em: https://www.instagram.com/p/CiDgL4tJWXp/"
+		},
+		{
+			"name" : "Calça Jogger Camuflada",
+			"price" : "15.99",
+			"options" : [
+				{ "Tamanho" : "M" },
+				{ "Cor" : "Camuflada Verde e preta" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cal%C3%A7a_camuflada_verde_e_preta.jpg",
+			"description" : "Calça Jogger Verde e preta Camuflada, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDfULsp28q/"
+		},
+		{
+			"name" : "Calça jeans listra",
+			"price" : "8,99",
+			"options" : [
+				{ "Tamanho" : "38" },
+				{ "Cor" : "Azul" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/9/98/Cal%C3%A7a_jeans_listra.jpg",
+			"description" : "Calça Jeans Trade mark Azul, listra vermela e branca, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDVfsOuYS8/"
+		},
+		{
+			"name" : "Camisa Social Quadriculada",
+			"price" : "14.99",
+			"options" : [
+				{ "Tamanho" : "P" },
+				{ "Cor" : "Preta. Listras vermelhas" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/b/b6/Camisa_Social_vermelha_e_preta.jpg",
+			"description" : "Camisa Social Vermelha e preta quadriculada, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDObVju741/"
+		},
+		{
+			"name" : "Calça Jeans Listrada",
+			"price" : "20,99",
+			"options" : [
+				{ "Tamanho" : "38" },
+				{ "Cor" : "Vermelha e Branca" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cal%C3%A7a_jeans_listrada.jpg",
+			"description" : "Calça Jeans Listrada Vermelha e branca, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDOAObOU8a/"
+		},
+		{
+			"name" : "Calça jeans onça",
+			"price" : "24.99",
+			"options" : [
+				{ "Tamanho" : "38" },
+				{ "Cor" : "Onça com flores" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/d/df/Calca.jpg",
+			"description" : "Calça jeans onça e flores, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDNQpsO-ti/"
+		}
+	]
+}

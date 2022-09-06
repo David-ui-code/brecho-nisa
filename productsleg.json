@@ -1,0 +1,15 @@
+{
+	"products" : [
+		{
+			"name" : "Calça Leg preta",
+			"price" : "20,99",
+			"options" : [
+				{ "Tamanho" : "M" },
+				{ "Cor" : "Blue,Red" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/9/9f/Calca_Leg_preta.jpg",
+			"description" : "Calça Leg Preta listrada, Unidades: 1. Mais fotos em: https://www.instagram.com/p/CiDgL4tJWXp/"
+		}
+	]
+}

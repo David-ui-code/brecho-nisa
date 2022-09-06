@@ -1,0 +1,37 @@
+{
+	"products" : [
+		{
+			"name" : "Calça jeans listra",
+			"price" : "8,99",
+			"options" : [
+				{ "Tamanho" : "38" },
+				{ "Cor" : "Azul" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/9/98/Cal%C3%A7a_jeans_listra.jpg",
+			"description" : "Calça Jeans Trade mark Azul, listra vermela e branca, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDVfsOuYS8/"
+		},
+		{
+			"name" : "Calça Jeans Listrada",
+			"price" : "20,99",
+			"options" : [
+				{ "Tamanho" : "38" },
+				{ "Cor" : "Vermelha e Branca" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cal%C3%A7a_jeans_listrada.jpg",
+			"description" : "Calça Jeans Listrada Vermelha e branca, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDOAObOU8a/"
+		},
+		{
+			"name" : "Calça jeans onça",
+			"price" : "24.99",
+			"options" : [
+				{ "Tamanho" : "38" },
+				{ "Cor" : "Onça com flores" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "https://upload.wikimedia.org/wikipedia/commons/d/df/Calca.jpg",
+			"description" : "Calça jeans onça e flores, Unidades 1. Mais fotos em: https://www.instagram.com/p/CiDNQpsO-ti/"
+		}
+	]
+}

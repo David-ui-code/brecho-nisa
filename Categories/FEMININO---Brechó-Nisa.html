@@ -7,13 +7,22 @@
     <title>Camisas Sociais - Brechó Nisa</title>
     <link rel="stylesheet" href="../style.css" media="screen">
 <link rel="stylesheet" href="FEMININO---Brechó-Nisa.css" media="screen">
-    <script class="u-script" type="text/javascript" src="../jquery.js" "="" defer=""></script>
+   <!-- <script class="u-script" type="text/javascript" src="../jquery.js" "="" defer=""></script> -->
     <script class="u-script" type="text/javascript" src="../script.js" "="" defer=""></script>
     <meta name="generator" content="Tema criado por David">
     <link rel="icon" href="../images/favicon.jpg">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     
+        <!-- FONT 
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/css/imports.min.css">
+    <link rel="stylesheet" href="/css/simpleStore.min.css">
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -29,7 +38,21 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode" data-lang="pt"><header class="u-clearfix u-header u-header" id="sec-668c"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="XL">
+        
+        <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container simpleStore">
+      <div class="row">
+          <a class="brand" href="#"></a>
+          <a class="button button-primary u-pull-right simpleStore_viewCart">
+              <i class="fa fa-shopping-cart"></i> Carrinho <span class="simpleCart_total"></span>
+          </a>
+      </div>
+      <div class="simpleStore_container"></div>
+      <div class="simpleStore_cart_container"></div>
+  </div>
+    
+    <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="XL">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
             <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
               <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
@@ -108,10 +131,118 @@
     <section class="u-clearfix u-section-1" id="sec-70aa">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
+
+        <!-- CATÁLOGO CÓDIGO -->
+
+      <!-- Templates
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Products View -->
+    <script id="products-template" type="x-template">
+      <div class="column">
+          <div class="simpleCart_shelfItem">
+              <img src="" class="item_thumb"/>
+              <div class="row">
+                  <h5 class="item_name"></h5>
+                  <div class="simpleStore_getDetail_container">
+                      <span class="item_price"></span>
+                  </div>
+                  <div class="simpleStore_getDetail_container">
+                      <a class="button u-pull-right simpleStore_getDetail">Detalhes</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </script>
+
+  <!-- Product Detail View -->
+  <script id="product-detail-template" type="x-template">
+      <div class="simpleCart_shelfItem simpleStore_detailView">
+          <a href="#" class="close view_close">&times;</a>
+
+          <div class="row">
+              <div class="four columns">
+                  <img src="" class="item_thumb"/>
+              </div>
+              <div class="eight columns">
+                  <h5 class="item_name"></h5>
+
+                  <p class="item_description"></p>
+                  <span class="item_price"></span>
+
+                  <div class="qty">
+                      <label>Quantidade</label>
+                      <input type="number" value="1" min="1" step="1" class="item_Quantity">
+                  </div>
+                  <div class="simpleStore_options"></div>
+                  <a class="item_add button u-pull-right" href="javascript:;">Adicionar ao Carrinho</a>
+              </div>
+          </div>
+      </div>
+  </script>
+
+  <!-- Cart View -->
+  <script id="cart-template" type="x-template">
+      <div class="simpleStore_cart">
+          <h2>Carrinho</h2>
+          <a href="#" class="close">&times;</a>
+
+          <div class="row">
+              <div class="eight columns">
+                  <div class="simpleCart_items"></div>
+                  <a href="javascript:;" class="simpleCart_empty u-pull-left">Esvaziar carrinho <i class="fa fa-trash-o"></i></a>
+              </div>
+              <div class="four columns">
+                  <div class="cart_info">
+                      <div class="cart_info_item cart_itemcount">Itens:
+                          <div class="simpleCart_quantity"></div>
+                      </div>
+                      <div class="cart_info_item cart_taxrate">Taxa de imposto:
+                          <div class="simpleCart_taxRate"></div>
+                      </div>
+                      <div class="cart_info_item cart_tax">Taxa:
+                          <div class="simpleCart_tax"></div>
+                      </div>
+                      <div class="cart_info_item cart_shipping">Envio:
+                          <div class="simpleCart_shipping"></div>
+                      </div>
+                      <div class="cart_info_item cart_total"><b>Total:
+                          <div class="simpleCart_grandTotal"></div>
+                      </b></div>
+                      <a href="javascript:;" class="button button-primary simpleStore_checkout u-pull-right">Finalizar <i class="fa fa-arrow-right"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </script
+
+  <!-- Error View -->
+  <script id="error-template" type="x-template">
+      <div class="error">
+          <b>Desculpe, algo deu errado :(</b>
+    <p class="error_text"></p>
+    <a href="#" class="close alert_close">&times;</a>
+      </div>
+  </script>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-b47a"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1"> © Copyright 2020-2022 Brechó Nisa - Todos direitos reservados</p>
       </div></footer>
+
+      
   
-</body></html>
+</body>
+
+<!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="./js F/simpleCart.min.js"></script>
+<script src="./js F/simpleStore.min.js"></script>
+
+<script src="./js F/config.js"></script>
+
+</html>

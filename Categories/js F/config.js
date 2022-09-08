@@ -79,7 +79,7 @@ $(function() {
 		numColumns : 3,
 
 		// name of JSON file, located in directory root
-		JSONFile : "../products.json"
+		JSONFile : "/productsF.json"
 
 	});
 
